@@ -1,0 +1,451 @@
+@media(max-width:1340px){
+    .container {
+        margin: auto;
+        width: 80%;
+    }
+}
+
+@media(max-width:1220px){
+    .full-header {
+        margin: 0 3%;
+    }
+    .skill-section-text p {
+        font-size: 14px;
+    }
+    .skill-diffi-section {
+        padding: 35px 15px;
+    }
+    .em-part .em-aeir span {
+        margin-right: 2%;
+        font-size: 12px;
+    }
+    .em-part .em-aeir h4 {
+        font-size: 17px;
+    }
+    .em-part p {
+        font-size: 14px;
+    }
+    .container {
+        width: 85%;
+    }
+    .full-header {
+        margin: 0 0%;
+    }
+}
+@media(max-width:1180){
+    .slider-text h4::after {
+        right: 346px;
+        top: 7px;
+    }
+    .slider-text h4::before {
+        left: 333px;
+        top: 8px;
+    }
+    .q-left-item h4 {
+        font-size: 18px;
+    }
+    .q-left-item p {
+        font-size: 15px;
+    }
+    .q-right-item p {
+        line-height: 23px;
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:1120px){
+    .em-part .em-aeir {
+        display: block;
+    }
+    .em-part {
+        padding: 30px 0px 30px 20px;
+    }
+
+}
+@media(max-width:1050px){
+    .awards-part ul li {
+        width: 33%;
+    }
+    .first-no {
+        font-size: 16px;
+    }
+    .second-no {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:992px){
+    .header-right ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 0;
+        background-image: linear-gradient(to right top, #171718, #1b1b1f, #1e1f27, #20232f, #222837, #1e2a3a, #1a2b3c, #142d3e, #082c39, #012a32, #00282b, #012523);
+        position: fixed;
+        left: 0;
+        top: 87px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s ;
+        padding-bottom: 3%;
+    }
+  
+    .header-right ul li a {
+        padding: 12px 15px;
+    }
+    .header-right ul li ul {
+        background-color: transparent;
+        left: 152%;
+        top: -35%;
+        width: 226px;
+    }
+    .header-right ul li ul li ul {
+        left: 117%;
+        top: -12%;
+    }
+    .header-right ul li ul li a {
+        padding: 8px 10px;
+    }
+
+    .active {
+        margin-top: 40%;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .header-right ul li a {
+        font-size: 15px;
+    }
+    .header-right ul li {
+        margin-left: 6%;
+    }
+
+    .responsive-r {
+        display: inline-block;
+        margin-left: 11px;
+    }
+    .css-r{
+        display: none;
+    }
+
+    /* for checkbox */
+
+    label #btn{
+        display: block;
+    }
+    #check:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+       
+        
+    }
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #cancel{
+        display: block;
+    }
+
+    /* menu end */
+    .about-text {
+        width: 100%;
+    }
+    .about-image {
+        width: 100%;
+    }
+    .about-main {
+        display: block;
+    }
+    .default-title-section h1 {
+        font-size: 30px;
+    }
+    .skill-diffi-section {
+        width: 48%;
+        margin-bottom: 3.8%;
+    }
+    .qualification {
+        width: 100%;
+        margin-right: 0%;
+    }
+    .educational-main {
+        display: block;
+    }
+    .my-image {
+        width: 100%;
+        text-align: center;
+    }
+    .employment-part-main {
+        display: block;
+    }
+    .em-part {
+        width: 100%;
+        margin-bottom: 5%;
+        padding: 30px 25px;
+    }
+    .awards-part ul li {
+        width: 47%;
+        text-align: center;
+    }
+
+ }
+ @media (max-width:900px){
+    .default-title-section h1 {
+        width: 85%;
+    }
+    .submit-form {
+        display: block;
+    }
+    .submit-form-text {
+        width: 100%;
+    }
+    .submit-form-message {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 4%;
+    }
+ }
+ @media (max-width:768px) {
+    .slider-text h1 {
+        font-size: 50px;
+    }
+    .my-work-section ul li {
+        width: 48%;
+    }
+    .portfolio-title ul li {
+        font-size: 13px;
+        padding-right: 3%;
+    }
+    .container {
+        width: 87%;
+    }
+    .image-hover-text {
+        left: 23%;
+    }
+    .counter-item {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .item {
+        width: 50%;
+        margin-bottom: 10%;
+    }
+    
+    .counter-main {
+        margin-bottom: 75px;
+        padding: 60px 0 4px 0;
+    }
+ }
+ @media (max-width:700px){
+    .container {
+        margin: auto;
+        width: 90%;
+    }
+    .default-title-section h1 {
+        width: 92%;
+    }
+    .skill-diffi-section {
+        width: 80%;
+        margin-bottom: 4.8%;
+    }
+    .form-section {
+        justify-content: space-around;
+    }
+    .form-item {
+        width: 49%;
+        margin-bottom: 9%;
+    }
+    .shadow-given {
+        padding: 40px 30px;
+    }
+ }
+ @media(max-width:600px){
+    .slider-text h4::before {
+        width: 0;
+        height: 0;
+    }
+    .slider-text h4::after {
+        width: 0;
+        height: 0;
+    }
+    .skill-diffi-section {
+        width: 96%;
+    }
+    .item {
+        width: 100%;
+        margin-bottom: 14%;
+    }
+    .qualification-item {
+        display: block;
+    }
+    .q-left-item {
+        width: 100%;
+        margin-right: 0%;
+    }
+    .q-right-item {
+        width: 100%;
+        margin-top: 5%;
+    }
+ }
+ @media(max-width:550px){
+    .portfolio-title ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .portfolio-title ul li {
+        padding-bottom: 19px;
+    }
+    .default-title-section h1 {
+        width: 103%;
+    }
+    .default-title-section h1 {
+        font-size: 25px;
+    }
+    .header-right ul li ul {
+        left: 128%;
+    }
+    .header-right ul li a {
+        font-size: 12px;
+    }
+ }
+ @media(max-width:512px){
+    .slider-text h1 {
+        font-size: 35px;
+    }
+    .slider-text h4 {
+        font-size: 14px;
+    }
+    .bio-qstion ul li {
+        padding-right: 50px;
+    }
+    .about-text {
+        padding: 40px 20px;
+    }
+    .my-work-section ul li {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .q-left-item h4 {
+        font-size: 18px;
+    }
+    .q-right-item p {
+        font-size: 15px;
+    }
+    .qualification-item {
+        padding: 35px 25px;
+    }
+    .awards-part ul li {
+        width: 90%;
+        text-align: center;
+    }
+    .form-item {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+ }
+ @media(max-width:450px){
+    .skill-diffi-section {
+        width: 100%;
+    }
+    .skill-section-image img {
+        width: 125px;
+    }
+    .skill-section-text h2 {
+        font-size: 17px;
+    }
+    .footer-icon a i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin-right: 15px;
+    }
+    .header-right ul li ul {
+        left: 106%;
+        width: 164px;
+    }
+ }
+ @media(max-width:400px){
+    .full-wrapper {
+        padding: 135px 0;
+    }
+    .about-text h4 {
+        font-size: 20px;
+    }
+    .about-text p {
+        font-size: 15px;
+    }
+    .about .container {
+        margin: auto;
+        width: 100%;
+  }
+  footer p {
+	font-size: 15px;
+}
+   
+ }
+ @media(max-width:350px){
+    .slider-text h1 {
+        font-size: 25px;
+    }
+    .slider-text h4 {
+        font-size: 12px;
+    }
+    .slider-text a {
+        padding: 11px 22px;
+    }
+    .container {
+        width: 93%;
+    }
+    .my-work-section ul li {
+        width: 96%;
+    }
+    .q-left-item h4 {
+        font-size: 16px;
+    }
+    .q-left-item p {
+        font-size: 15px;
+    }
+    .q-right-item p {
+        font-size: 13px;
+    }
+    .header-right ul li a {
+        font-size: 8px;
+    }
+    .header-right ul li {
+        margin-left: 0%;
+    }
+    .header-right ul li ul {
+        left: 106%;
+        width: 130px;
+    }
+    .active {
+        margin-top: 20%;
+    }
+ }
+ @media(max-width:330px){
+    .bio-qstion ul li {
+        padding-right: 15px;
+        font-size: 13px;
+    }
+    .bio-ans ul li {
+        font-size: 13px;
+    }
+  
+ }
+ @media(max-width:300px){
+    .my-work-section ul li {
+        width: 100%;
+    }
+    .footer-icon a i {
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+        font-size: 11px;
+    }
+ }
